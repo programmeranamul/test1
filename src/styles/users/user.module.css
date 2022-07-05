@@ -1,0 +1,15 @@
+
+.section{
+    margin-top: 80px;
+}
+
+
+.my_row{
+    word-break: break-all;
+}
+
+.icon{
+    font-size: 19px;
+    /* padding: 0 10px; */
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #eee;
+  padding: 9px;
+  padding-bottom: 8px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  color: gray !important;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link span  :nth-child(1) {
+  font-size: 2rem;
+  color: crimson;
+}
+
+span .cartIcon:nth-child(2){
+    padding: 0 3px;
+  background-color: red;
+  color: white;
+  font-weight: bolx;
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+
+}
+
+
+
+@media (max-width: 400px) {
+  .text {
+    display: none;
+  }
+}

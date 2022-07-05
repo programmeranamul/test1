@@ -1,0 +1,22 @@
+.section{
+    margin-bottom: 40px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: black ;
+    font-weight: 600;
+}
+
+
+@media (max-width:450px){
+    .wrapper a{
+       font-size: 14px !important;
+    }
+}

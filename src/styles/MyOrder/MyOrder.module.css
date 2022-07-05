@@ -1,0 +1,14 @@
+.date{
+    margin-bottom: 0;
+    color: #aaa !important;
+}
+
+.price{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.my_link{
+    color: black !important;
+    text-decoration: none;
+}

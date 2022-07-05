@@ -1,0 +1,15 @@
+
+.date{
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ababab;
+}
+
+.card{
+    background: #eee;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

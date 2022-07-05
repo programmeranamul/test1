@@ -1,0 +1,24 @@
+.form{
+    border: 1px solid lightgrey
+}
+
+.loginSign img{
+    width: 30px;
+    height: 30px;
+}
+.logIn-Btn{
+   padding: 5px 45px;
+   background-color:lime;
+   border-radius: 10px;
+   font-weight: 700;
+   border: none;
+}
+.loginSign .btn{
+    background-color: darkblue;
+    border-radius: 20px;
+    color: white;
+    margin-left: 20px;
+}
+ .btn :hover{
+    color: red;
+}

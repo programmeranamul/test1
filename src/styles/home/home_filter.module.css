@@ -1,0 +1,72 @@
+.section {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 100px;
+  opacity: 0;
+  display: none;
+}
+.show{
+    opacity: 1;
+    display: block;
+    transition: all .3s ease-in;
+    
+    z-index: 999;
+
+}
+.wrapper{
+    width: 60%;
+    margin-left: auto;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 15px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.close{
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+.company{
+    font-size: 17.5px;
+    margin-bottom: 5px;
+}
+
+.input_box
+{
+margin-bottom: 20px !important;
+}
+
+.input_box input{
+    display: block;
+    border: 1px solid #eee;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    outline: none !important;
+    font-weight: 600;
+}
+
+.my_check{
+    display: flex !important;
+    padding-left: 10px !important;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: .5px solid #eee;
+    margin-bottom: 15px !important;
+}
